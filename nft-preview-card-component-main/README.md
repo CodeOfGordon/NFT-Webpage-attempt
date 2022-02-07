@@ -1,4 +1,6 @@
-# Frontend Mentor - NFT preview card component --- MAIN WORK CAN BE FOUND IN "index.html" AND "style.css" FOUND IN THE "css" FOLDER
+# Frontend Mentor - NFT preview card component 
+--- 
+MAIN WORK BY CODINGNOOBGORDON CAN BE FOUND IN "index.html", AND "style.css" FOUND IN THE "css" FOLDER
 
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
 
