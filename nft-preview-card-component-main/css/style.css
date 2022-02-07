@@ -1,0 +1,106 @@
+/*
+<style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+*/
+
+/*links*/
+.clr {
+  clear: both;
+}
+
+a:link {
+  color: #ffffff;
+  text-decoration: none; /* No underline */
+}
+a:visited {
+  color: #ffffff;
+}
+a:hover {
+  color: #0ca0b4;
+}
+
+/* Overlay */
+.nft {
+  position: relative;
+  width: 100%;
+}
+.nft-pic {
+  display: block; /* Makes it inline with block/image */
+  width: 100%;
+  height: 100%;
+}
+.nft-overlay {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute; /* Overlay's position is now based on .nft */
+  background-color: rgba(0, 147, 163, 255);
+
+  opacity: 0;
+}
+.nft-overlay:hover {
+  opacity: 0.5;
+}
+
+body {
+  background-color: #0d1a2d;
+  color: #5c6f8d;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+img {
+  border-radius: 5%;
+}
+.box {
+  background-color: #15273f;
+  width: 20%;
+  height: 100%;
+  font-size: 12px;
+  margin: 5% auto auto auto;
+  border: none;
+  border-radius: 3%;
+  padding: 1% 1% 2% 1%;
+}
+.description {
+  font-size: 15px;
+}
+
+.currency {
+  float: left;
+  color: #0ca0b4;
+  font-size: 110%;
+  font-weight: bold;
+  display: inline;
+}
+
+.duration {
+  float: right;
+  font-size: 110%;
+  font-weight: bold;
+  display: inline;
+  padding-right: 1%;
+}
+
+.artist-image {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  vertical-align: middle;
+  margin-top: 1.5%;
+}
+
+.artist {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  display: inline;
+  padding-left: 4%;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 4;
+}
